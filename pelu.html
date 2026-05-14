@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Diamond – Barbería en Salta</title>
+    <meta name="description" content="Black Diamond, barbería en Salta. Cortes clásicos y modernos, perfilado de barba y cejas. Servicio completo ARS $12.000. Turno por WhatsApp.">
+    <meta name="keywords" content="barbería Salta, corte de cabello Salta, Black Diamond barbería, perfilado de barba Salta">
+
+    <!-- Google Fonts: Playfair Display + Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="pelu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-premium">
+
+    <!-- Redes sociales laterales -->
+    <div class="sidebar-redes">
+        <a href="https://www.instagram.com/_black__diam0nd/" target="_blank" class="side-icon ig" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://web.facebook.com/profile.php?id=100013723818280" target="_blank" class="side-icon fb" aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" onclick="enviarWhatsApp()" class="side-icon wa" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <div class="super-container">
+
+        <!-- HEADER -->
+        <header class="animate-drop">
+            <div class="logo-diamond">💎</div>
+            <h1>Black Diamond</h1>
+            <p class="subtitle">Cortes clásicos y modernos · Salta</p>
+            <div class="separator"></div>
+        </header>
+
+        <main class="animate-fadein">
+
+            <!-- SERVICIO -->
+            <section id="info-servicio" class="glass-card">
+                <div class="precio-badge">Servicio Completo</div>
+                <h2>ARS $12.000</h2>
+                <ul class="lista-detalles">
+                    <li><span class="icono">✂️</span> Corte de cabello a elección</li>
+                    <li><span class="icono">🧔</span> Perfilado de barba <span class="tag-bonus">¡Bonificado!</span></li>
+                    <li><span class="icono">✨</span> Perfilado de cejas</li>
+                    <li><span class="icono">🧴</span> Aplicación de productos premium</li>
+                </ul>
+                <p class="nota">Todo incluido en un único precio.</p>
+                <div class="mapa-container">
+                    <i class="fa-solid fa-location-dot" style="color:#d4af37; margin-right:6px;"></i>
+                    <span>Huaico 2 MZN: 469A casa: 1</span>
+                    <a href="https://maps.app.goo.gl/RwjRAFViFNo4R6218" target="_blank" class="btn-secundario">
+                        Ver en mapa 📍
+                    </a>
+                </div>
+            </section>
+
+            <!-- GALERÍA SLIDER -->
+            <section class="galeria-slider glass-card">
+                <h3>Nuestros Trabajos</h3>
+                <div class="slider-wrapper">
+                    <img src="corte1.jpeg" alt="Fade degradado en laterales con textura en el top" class="foto-slider">
+                    <img src="corte2.jpeg" alt="Corte clásico con barba perfilada" class="foto-slider">
+                    <img src="corte3.jpeg" alt="Corte moderno con degradado y diseño" class="foto-slider">
+                    <img src="corte4.jpeg" alt="Undercut con volumen superior y barba corta" class="foto-slider">
+                    <img src="corte5.jpeg" alt="Corte ejecutivo con terminación prolija" class="foto-slider">
+                </div>
+                <p class="instruccion"><i class="fa-solid fa-hand-pointer" style="font-size:0.8rem;"></i> Deslizá para ver más</p>
+            </section>
+
+            <!-- RESEÑAS -->
+            <section class="seccion-resenas">
+                <h3 class="titulo-seccion">Lo que dicen nuestros clientes</h3>
+                <div class="resenas-wrapper" id="resenasWrapper">
+
+                    <div class="resena-card glass-card">
+                        <div class="resena-header">
+                            <div class="avatar">MG</div>
+                            <div>
+                                <p class="resena-nombre">Matías G.</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="resena-texto">"Vine recomendado por un amigo y quedé re conforme. El corte quedó exactamente como pedí, y el perfilado de barba fue un regalo. Ya saqué turno para el mes que viene."</p>
+                    </div>
+
+                    <div class="resena-card glass-card">
+                        <div class="resena-header">
+                            <div class="avatar">LR</div>
+                            <div>
+                                <p class="resena-nombre">Lucas R.</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="resena-texto">"Excelente atención, se nota que saben lo que hacen. Por $12.000 te dan un servicio completo que en otros lados te cobran el doble. El ambiente es muy buena onda."</p>
+                    </div>
+
+                    <div class="resena-card glass-card">
+                        <div class="resena-header">
+                            <div class="avatar">FT</div>
+                            <div>
+                                <p class="resena-nombre">Franco T.</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="resena-texto">"El mejor corte que me hicieron en mucho tiempo. Me mostraron fotos de referencia, entendieron lo que quería y lo ejecutaron perfecto. 100% recomendado."</p>
+                    </div>
+
+                </div>
+
+                <!-- Formulario para dejar reseña -->
+                <div class="glass-card form-resena" id="formResena">
+                    <h4><i class="fa-regular fa-star"></i> Dejá tu reseña</h4>
+                    <div class="estrellas-selector" id="estrellasSelector">
+                        <span class="estrella-btn" data-valor="1">★</span>
+                        <span class="estrella-btn" data-valor="2">★</span>
+                        <span class="estrella-btn" data-valor="3">★</span>
+                        <span class="estrella-btn" data-valor="4">★</span>
+                        <span class="estrella-btn" data-valor="5">★</span>
+                    </div>
+                    <input type="text" id="inputNombre" placeholder="Tu nombre" class="input-resena" maxlength="30">
+                    <textarea id="inputTexto" placeholder="Contanos tu experiencia..." class="input-resena textarea-resena" maxlength="200"></textarea>
+                    <button class="btn-enviar-resena" onclick="enviarResena()">Publicar reseña</button>
+                </div>
+            </section>
+
+            <!-- HORARIOS Y FAQ -->
+            <section class="seccion-info-extra">
+                <div class="glass-card horario-flexible">
+                    <h3><i class="fa-regular fa-clock"></i> Horarios de Atención</h3>
+                    <div class="horario-grid">
+                        <div class="horario-fila">
+                            <span class="horario-dia">Lunes a Viernes</span>
+                            <span class="horario-hora">16:00 – 22:00</span>
+                        </div>
+                        <div class="horario-fila">
+                            <span class="horario-dia">Sábados</span>
+                            <span class="horario-hora">17:00 – 20:00</span>
+                        </div>
+                        <div class="horario-fila domingo">
+                            <span class="horario-dia">Domingos</span>
+                            <span class="horario-hora">Cerrado</span>
+                        </div>
+                    </div>
+                    <p class="nota-horario">Consultá disponibilidad del día por WhatsApp.</p>
+                </div>
+
+                <div class="glass-card faq-section">
+                    <h3><i class="fa-regular fa-comments"></i> Preguntas Frecuentes</h3>
+
+                    <div class="faq-item">
+                        <button class="faq-pregunta">
+                            <span>¿Es necesario pedir turno previo?</span>
+                            <i class="fa-solid fa-chevron-down flecha"></i>
+                        </button>
+                        <div class="faq-respuesta">
+                            <p>No necesariamente, pero con turno reservado te aseguramos atención personalizada y sin esperas. También podés pasarte por el lugar.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-pregunta">
+                            <span>¿Qué formas de pago aceptan?</span>
+                            <i class="fa-solid fa-chevron-down flecha"></i>
+                        </button>
+                        <div class="faq-respuesta">
+                            <p>Aceptamos efectivo, transferencias bancarias y Mercado Pago.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-pregunta">
+                            <span>¿El precio de $12.000 incluye todo?</span>
+                            <i class="fa-solid fa-chevron-down flecha"></i>
+                        </button>
+                        <div class="faq-respuesta">
+                            <p>¡Sí! Incluye corte a elección, perfilado de barba y perfilado de cejas, todo por el mismo precio.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BOTÓN WHATSAPP -->
+            <button id="btn-whatsapp" class="animate-pulse" onclick="enviarWhatsApp()">
+                <i class="fa-brands fa-whatsapp"></i> Pedir Turno por WhatsApp
+            </button>
+
+            <p class="footer-text">© 2025 Black Diamond · Salta, Argentina</p>
+
+        </main>
+    </div>
+
+    <script src="pelu.js"></script>
+</body>
+</html>
